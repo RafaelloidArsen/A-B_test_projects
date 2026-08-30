@@ -1,0 +1,24 @@
+# Сырые данные (скачиваются отдельно, см. README в каждой data-папке)
+*/data/*.csv
+*/data/*.xlsx
+*/data/*.zip
+
+# Но описания датасетов оставляем в репозитории
+!*/data/*.md
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# ОС / IDE
+.DS_Store
+.vscode/
+.idea/
